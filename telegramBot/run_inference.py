@@ -1,9 +1,9 @@
 from aitextgen import aitextgen
 
 config_path = "./model/config.json"
-model_path = "./model/pytorch_model.bin"
+model_path = "./model"
 
-ai = aitextgen(model=model_path, config=config_path, to_gpu=False)
+ai = aitextgen(model_folder=model_path, config=config_path, to_gpu=False)
 
 chat = []
 start_temperature = 0.7
