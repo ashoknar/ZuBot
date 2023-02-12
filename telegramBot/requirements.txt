@@ -1,0 +1,2 @@
+aitextgen==0.2.3
+pyTelegramBotAPI==4.10.0
