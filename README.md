@@ -51,3 +51,20 @@ Due to this nature, this repository has probably:
 that had inspired me to start this repository.
 - Why _pistoBot_ name?
     - :crystal_ball: The answer could be handed down only by voice
+
+
+# Run Docker
+
+1. Go to the telegram bot directory
+> cd telegramBot
+
+2. Make sure you have the model files `config.json` and `pytorch_model.bin` in the `model` directory
+
+3. Docker build
+> docker build -t zubot:latest .
+
+4. Docker run
+> docker run -e BOT_TOKEN='<bot-token>' --name zubot zubot:latest
+
+
+send messages to your telegram bot and enjoy
