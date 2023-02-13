@@ -64,7 +64,7 @@ that had inspired me to start this repository.
 > docker build -t zubot:latest .
 
 4. Docker run
-> docker run -e BOT_TOKEN='<bot-token>' --name zubot zubot:latest
+> docker run -e BOT_TOKEN='add bot token' --name zubot zubot:latest
 
 
 send messages to your telegram bot and enjoy
